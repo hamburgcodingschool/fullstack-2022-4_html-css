@@ -19,7 +19,7 @@ Feel free to use any recipes you like, but add at least 4.
 		* Image of the dish
 		* Small description (feel free to use lipsum dummy text here)
 		* List of ingredients
-		* Steps required
+		* Steps required to cook 🔪🥘
 			* Suggestion: use a `<p>` for each step
 		* Link to go back to the `index.html` page
 		* Style at will with CSS
