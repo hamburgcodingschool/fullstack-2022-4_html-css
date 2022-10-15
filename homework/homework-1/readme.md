@@ -1,6 +1,6 @@
 # 👨‍🍳 My Favorite Recipes 🍕
 ## Goal 🥅
-Create a website that showcases your favorite recipes.
+Create a website that showcases your favorite recipes.<br />
 Feel free to use any recipes you like, but add at least 4.
 
 ## Specifications 🤓
