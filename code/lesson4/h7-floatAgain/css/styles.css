@@ -1,0 +1,72 @@
+body {
+    background-color: aqua;
+    margin: 0;
+}
+
+.clearFix {
+    clear: both;
+}
+
+#mainWrapper {
+    width: 1200px;
+    min-height: 500px;
+
+    background-color: white;
+    margin: 10px auto 0 auto;
+}
+
+header {
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+#menuLeft {
+    width: 300px;
+    min-height: 400px;
+    background-color: cornsilk;
+
+    float: left;
+}
+
+.menuLinks {
+    margin: 0;
+    padding-top: 20px;
+}
+
+#mainContent {
+    width: 860px;
+    min-height: 360px;
+    background-color: dodgerblue;
+
+    float: left;
+    padding: 20px;
+}
+
+.contentImage {
+    float: left;
+    padding: 0 20px 0 0;
+}
+
+footer {
+    background-color: black;
+    min-height:200px;
+
+    color: white;
+}
+
+#footerLeft {
+    width: 400px;
+    float: left;
+
+    background-color: burlywood;
+}
+
+#footerCenter {
+    width: 400px;
+    float: left;
+}
+
+#footerRight {
+    width: 400px;
+    float: left;
+}
