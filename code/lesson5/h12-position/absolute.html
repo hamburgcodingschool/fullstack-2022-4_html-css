@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mainWrapper {
+            position: relative;
+            background-color: pink;
+            width: 600px;
+            height:400px;
+            margin: 100px auto;
+        }
+
+        #div1 {
+            bottom : 0px;
+            right: 0px;
+            
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+
+            z-index: 5;
+
+        }
+
+        #div2 {
+            top: 40px;
+            left: 40px;
+            
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: green;
+
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="mainWrapper">
+        <div id="div1">
+        
+        </div>
+    
+        <div id="div2">
+            <a href="https://google.com">GOOGLE IT...</a>
+        </div>
+    </div>
+
+    
+    
+
+</body>
+</html>
