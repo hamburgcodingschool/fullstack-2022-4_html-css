@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+}
+
+#mainWrapper {
+    width: 750px;
+    min-height: 200px;
+    background-color: white;
+    margin: 50px auto 0;
+}
+
+#leftMenu {
+    width: 200px;
+    height: 400px;
+    background-color: yellow;
+    position: fixed;
+    top: 50px;
+}
+
+#mainContent {
+    width: 550px;
+    min-height: 1500px;
+    background-color: pink;
+    margin-left: 200px;
+}

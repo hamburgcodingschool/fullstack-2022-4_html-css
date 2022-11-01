@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #flexContainer {
+            margin: 0 auto;
+            width: 500px;
+            height: 500px;
+            background-color: red;
+
+            display: flex;
+            flex-direction: row;
+            /* justify-content: flex-start; */
+            /* justify-content: flex-end; */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */            
+
+            /* justify-content: space-between; */
+            /* align-items: center; */
+
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            align-content: space-between;
+        }
+        /* justify-content: aligns the elements along the main axis */
+        /* align-items: aligns the elements along the secondary axis */
+        /* align-content: aligns elements that are in more than 1 line along the main axis (only works if there's more than 1 line) */
+
+        #flexContainer > div {
+            background-color: antiquewhite;
+            border: solid 2px black;
+            width: 100px;
+            height: 100px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="flexContainer">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</body>
+</html>

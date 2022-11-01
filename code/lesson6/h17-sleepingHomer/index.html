@@ -8,6 +8,7 @@
     <style>
         body {
             margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         .homerImage {
@@ -19,12 +20,27 @@
         header {
             background-color: rgba(255, 255, 0, 0.8);
             text-align: center;
-            padding: 10px 0;
+            padding: 20px;
 
             position: sticky;
             top: 0;
             
             backdrop-filter: blur(5px);
+
+        }
+
+        header a {
+            margin: 20px;
+            font-size: 20px;
+            line-height: 25px;
+            padding: 5px;
+            text-decoration: none;
+            color: black;
+            border-bottom: solid 2px rgba(255, 255, 0, 0.8);
+        }
+
+        header a:hover {
+            border-bottom: solid 2px black;
         }
 
         .mainWrapper {
