@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Default Values are for Mobile and Up */
+        #div1 {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+        /* Replace Values are for Tablet and Up */
+        @media (min-width: 500px) {
+            #div1 {
+                background-color: green;
+                border: solid 25px black;
+            }            
+        }
+
+        /* Replace Values are for Desktop and Up */
+        @media (min-width: 1000px) {
+            #div1 {
+                background-color: blue;
+                
+            }            
+        }
+
+        #div2 {
+            background-color: aquamarine;
+        }
+
+        #div2 > a {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="div1"></div>
+
+    <!-- CREATE A SQUARE DIV WITH A BACKGROUND -->
+    <!-- SHOULD BE RED FOR Phones -->
+    <!-- SHOULD BE GREEN FOR Tablets -->
+    <!-- SHOULD BE BLUE FOR Desktop AND UP -->
+
+    <!-- Common Responsive Breakpoints -->
+
+    <a href="#"> Some outside Link</a>
+    <div id="div2">
+        <a href="#"> Some weird Link</a><br>
+        <a href="#"> Some weird Link</a>
+        <ol>
+            <li><a href="#">Some listy link</a></li>
+            <li><a href="#">Some listy link</a></li>
+            <li><a href="#">Some listy link</a></li>
+            <li><a href="#">Some listy link</a></li>
+        </ol>
+        <a href="#"> Some weird Link</a>
+
+    </div>
+
+</body>
+</html>
