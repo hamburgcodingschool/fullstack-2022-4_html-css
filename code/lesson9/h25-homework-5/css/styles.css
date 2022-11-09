@@ -1,0 +1,64 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+#logoHeader {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 10px;
+    /* background-color: pink; */
+}
+
+header button {
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header > nav {
+    width: 100%;
+    /* background-color: aquamarine; */
+    justify-content: flex-end;
+    align-items: center;    
+
+    display: none;
+}
+
+header > nav > a {
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 900px) {
+    header {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    header > nav {
+        display: flex;
+    }
+
+    #burgerMenu {
+        display: none;
+    }
+
+    #mainContainer {
+        flex-direction: row;
+    }
+}
